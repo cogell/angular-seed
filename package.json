@@ -1,0 +1,45 @@
+{
+  "name": "angular-seed",
+  "version": "0.0.0",
+  "description": "angular seed project",
+  "main": "bin/index.html",
+  "scripts": {
+    "test": "node_modules/gulp/bin/gulp.js test",
+    "start": "node_modules/gulp/bin/gulp.js start",
+    "lint": "node_modules/gulp/bin/gulp.js lint"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "angularjs",
+    "node",
+    "gulp"
+  ],
+  "author": "B Cedric Cogell",
+  "dependencies": {
+    "angular": "^1.3.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.3.2",
+    "browser-sync": "^1.6.3",
+    "del": "^0.1.3",
+    "extend": "^2.0.0",
+    "gulp": "^3.8.10",
+    "gulp-concat": "^2.4.1",
+    "gulp-jshint": "^1.9.0",
+    "gulp-ng-annotate": "^0.3.4",
+    "gulp-protractor": "0.0.11",
+    "gulp-sourcemaps": "^1.2.8",
+    "gulp-uglify": "^1.0.1",
+    "jasmine": "^2.0.1",
+    "karma": "^0.12.24",
+    "karma-chrome-launcher": "^0.1.5",
+    "karma-jasmine": "^0.2.3",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "protractor": "^1.4.0",
+    "relquire": "^0.4.1",
+    "require-dir": "^0.1.0",
+    "run-sequence": "^1.0.1"
+  }
+}
